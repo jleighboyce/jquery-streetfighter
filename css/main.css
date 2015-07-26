@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url('//fonts.googleapis.com/css?family=Open+Sans');
 
 body {
 	background-color: black;
@@ -10,13 +10,13 @@ body {
 	margin-top: -110px;
     background-position: 10% 20%;
 	padding: 0px;
-	background-image: url('http://www.fightersgeneration.com/np5/gm/ex-top.png');
+	background-image: url('//www.fightersgeneration.com/np5/gm/ex-top.png');
 	float: right;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 .main {
-	background-image: url("https://ununsplash.imgix.net/36/hGibbjg0Rb2fUIoMtU5l__DSC8099.jpg?fit=crop&fm=jpg&h=650&q=75&w=1050");
+	background-image: url("//ununsplash.imgix.net/36/hGibbjg0Rb2fUIoMtU5l__DSC8099.jpg?fit=crop&fm=jpg&h=650&q=75&w=1050");
 	background-color: white;
 	margin-top: 110px;
 	padding-left: 100px;
