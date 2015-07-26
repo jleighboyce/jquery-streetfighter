@@ -1,7 +1,22 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
 	background-color: black;
 }
+.logo {
+	width: 208px;
+	height: 108px;
+	margin-right: 190px;
+	margin-top: -110px;
+    background-position: 10% 20%;
+	padding: 0px;
+	background-image: url('http://www.fightersgeneration.com/np5/gm/ex-top.png');
+	float: right;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .main {
+	background-image: url("https://ununsplash.imgix.net/36/hGibbjg0Rb2fUIoMtU5l__DSC8099.jpg?fit=crop&fm=jpg&h=650&q=75&w=1050");
 	background-color: white;
 	margin-top: 110px;
 	padding-left: 100px;
@@ -14,11 +29,11 @@ body {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-still, .ryu-throwing {
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
 }
 .ryu-ready {
@@ -30,7 +45,7 @@ body {
 .ryu-throwing {
 	background-image: url('../images/ryu-throwing-hadouken.png');
 }
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	background-repeat: no-repeat;
 }
 .hadouken {
@@ -42,4 +57,82 @@ body {
 	z-index: 10;
 	top: 167px;
 	left: 520px;
+}
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+}
+ul {
+	  -webkit-padding-start: 20px;
+	  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+
+}
+
+.instructions {
+	width: 550px;
+	height: 500px;
+	display: inline;
+	background: black;
+	padding-right: 2em;
+	padding-top: 0em;
+}
+li::first-letter {
+	font-size: 1.8em;
+	font-style: italic;
+}
+.first, .second, .third {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 300;
+	text-align: justify;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.first {
+	color: goldenrod;
+}
+.second {
+	color: orangered;
+}
+.third {
+	color: red;
+}
+ul li:nth-child(3) {
+
+}
+#phrase {
+	background-color: black;
+  font-family: "Open Sans",  Impact;
+  text-align:center;
+  font-size: 5em;
+  color: deepskyblue;
+  letter-spacing: -7px;
+  font-weight:700;
+  text-transform:uppercase;
+  animation:blur 1.25s ease-out infinite;
+  text-shadow:0px 0px 5px #fff,
+      0px 0px 7px #fff;
+}
+@keyframes blur{
+  from{
+      text-shadow:0px 0px 10px #fff,
+      0px 0px 10px #fff, 
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 25px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #fff,
+      0px 0px 50px #7B96B8,
+      0px 0px 150px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px 10px 100px #7B96B8,
+      0px -10px 100px #7B96B8,
+      0px -10px 100px #7B96B8;}
 }
