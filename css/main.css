@@ -1,22 +1,10 @@
-@import url('//fonts.googleapis.com/css?family=Open+Sans');
 
 body {
 	background-color: black;
 }
-.logo {
-	width: 208px;
-	height: 108px;
-	margin-right: 190px;
-	margin-top: -110px;
-    background-position: 10% 20%;
-	padding: 0px;
-	background-image: url('//fightersgeneration.com/np5/gm/ex-top.png');
-	float: right;
-	background-size: cover;
-	background-repeat: no-repeat;
-}
+
 .main {
-	background-image: url("//ununsplash.imgix.net/36/hGibbjg0Rb2fUIoMtU5l__DSC8099.jpg?fit=crop&fm=jpg&h=650&q=75&w=1050");
+	background-image: url('http://ununsplash.imgix.net/36/hGibbjg0Rb2fUIoMtU5l__DSC8099.jpg?fit=crop&fm=jpg&h=650&q=75&w=1050');
 	background-color: white;
 	margin-top: 110px;
 	padding-left: 100px;
